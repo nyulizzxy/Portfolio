@@ -1,0 +1,207 @@
+/* Color & Style of Website*/
+
+/* Background, text, and font of body */
+body {
+    background-color: #ffe6f0; 
+    color: #3f2a45; 
+    font-family: "Coming Soon", cursive;
+}
+
+/* Background, text, and font of headers 1-6 */
+h1, h2, h3, h4, h5, h6 {
+    color: #f15b87; 
+    font-family: "Coming Soon", cursive;
+}
+
+/* Navigation Bar color */
+.w3-bar {
+    background-color: #ed7699 !important; 
+}
+
+/* Navigation Bar text color */
+.w3-bar-item {
+    color: #fff !important; 
+}
+
+/* Navigation Bar hover color*/
+.w3-bar-item:hover {
+    background-color: #f0b1c7 !important; 
+}
+
+/* Button color & its text's color */
+.w3-button.w3-theme, .w3-button.w3-theme-l1, .w3-button.w3-theme-l2 {
+    background-color: #f15b87 !important; 
+    color: white !important;
+}
+
+/* Button hover color */
+.w3-button.w3-theme:hover, .w3-button.w3-theme-l1:hover, .w3-button.w3-theme-l2:hover {
+    background-color: #f0b1c7 !important; 
+}
+
+/* Background color */
+.w3-theme-l5 {
+    background-color: #ffe6f0 !important; 
+}
+
+/* Profile Box */
+.w3-card.w3-round.w3-white {
+    background-color: #ffffff !important; 
+    border: 1px solid #f0b1c7; 
+}
+
+.w3-container {
+    color: #3f2a45; 
+}
+
+/* Interests Section */
+.w3-tag {
+    background-color: #f0b1c7 !important; 
+    color: white !important;
+}
+
+/* Buttons */
+.w3-button.w3-theme-d1 {
+    background-color: #f15b87 !important; 
+    color: white !important;
+}
+
+.w3-button.w3-theme-d2 {
+    background-color: #f0b1c7 !important; 
+    color: white !important;
+}
+
+/* Card Hover Effect */
+.w3-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+    background-color: #f15b87 !important;
+    color: white !important;
+}
+
+/* Navigation Bae Dropdown */
+.w3-dropdown-content {
+    background-color: #ffe6f0 !important; 
+}
+
+.w3-dropdown-content .w3-bar-item {
+    color: #3f2a45 !important; 
+}
+
+.w3-dropdown-content .w3-bar-item:hover {
+    background-color: #f0b1c7 !important; 
+}
+
+/* Social Media Posts */
+.w3-card.w3-round.w3-white.w3-center {
+    background-color: #ffffff !important; 
+}
+
+.w3-button.w3-block.w3-theme-l4 {
+    background-color: #f0b1c7 !important; 
+    color: white !important;
+}
+
+/* Post Image */
+img {
+    border-radius: 10px;
+}
+
+/* Icon colors */
+.w3-text-theme {
+    color: #f15b87 !important; 
+}
+
+/* Notification Alert Box */
+.w3-container.w3-display-container.w3-round.w3-theme-l4 {
+    background-color: #f0c2d1 !important; 
+    border: 1px solid #f0b1c7;
+}
+
+.w3-button.w3-theme-l3 {
+    background-color: #f0b1c7 !important; 
+    color: white !important;
+}
+
+/* Right Sidebar Widgets */
+.w3-card.w3-round.w3-white.w3-center {
+    background-color: #ffffff !important; 
+}
+
+/* Explore and Friend Request Boxes*/
+.w3-card.w3-round.w3-white.w3-center {
+    background-color: #ffffff !important;
+}
+
+.w3-button.w3-block.w3-theme-l4 {
+    background-color: #f0b1c7 !important; 
+    color: white !important;
+}
+
+/* Buttons */
+.w3-button {
+    border-radius: 50px;
+}
+
+.w3-opacity {
+    opacity: 0.8;
+}
+
+/* Hyperlink Color*/
+a {
+    color: #fc719a;
+}
+
+a:hover {
+    color: #f0b1c7;
+}
+
+/* Portfolio, Interests, Posts - White Background Boxes */
+.w3-card.portfolio, .w3-card.interests, .w3-card.posts {
+    background-color: #ffffff !important; 
+    border: 1px solid #f0b1c7; 
+}
+
+/* Gallery Container */
+.w3-container#gallery {
+    text-align: center;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    gap: 10px; 
+  }
+  
+  .column {
+    flex: 1;
+    max-width: 25%; 
+    padding: 5px;
+    box-sizing: border-box;
+  }
+  
+  .column img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; 
+    max-height: 200px; 
+    margin-bottom: 10px; 
+    border-radius: 10px; 
+  }
+  
+  
+  div.scroll-container {
+    background-color: #ffe6ef;;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+    max-height: 100%;
+  }
+  
+  div.scroll-container img {
+    padding: 5px;
+  }
